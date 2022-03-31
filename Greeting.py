@@ -1,7 +1,5 @@
-num = 10
-num01 = 20
-num_01 = 30
+num01 = 123
+num02 = 1.23
 
-print(num)
-print(num01)
-print(num_01)
+print(type(num01))
+print(type(num02))
