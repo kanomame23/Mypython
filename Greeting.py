@@ -1,4 +1,7 @@
-string_a = "Hello,World!"
+a = 10
+b = 1
 
-print(string_a)
-print(type(string_a))
+bool01 = (a < b)
+
+print(bool01)
+print(type(bool01))
