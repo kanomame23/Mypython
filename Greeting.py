@@ -1,7 +1,7 @@
-a = 10
-b = 1
+a = [["sato","suzuki"],["takahashi","tanaka"]]
 
-bool01 = (a < b)
 
-print(bool01)
-print(type(bool01))
+print(a[0][0])
+print(a[0][1])
+print(a[1][0])
+print(a[1][1])
