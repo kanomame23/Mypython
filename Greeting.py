@@ -1,5 +1,12 @@
-x = 8
-y = 3
+from tkinter import Y
 
-print(x == 3 or y == 3)
-print(x == 1 or y == 1)
+
+x = 8
+y = 12
+z = 20
+
+x += 10
+z += y
+
+print(x)
+print(z)
