@@ -1,12 +1,8 @@
-from tkinter import Y
+age = 0
 
-
-x = 8
-y = 12
-z = 20
-
-x += 10
-z += y
-
-print(x)
-print(z)
+if age >= 20:
+    print("adult")
+elif age == 0:
+    print("baby")
+else:
+    print("child")
