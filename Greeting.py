@@ -1,5 +1,5 @@
-arr = [2, 4, 6, 8, 10]
-sum = 0
-for i in arr:
-    sum += i
-    print(sum)
+def div(a, b, c):
+    return(a+b+c)/3
+
+div_result = div(9,4,2)
+print(div_result)
