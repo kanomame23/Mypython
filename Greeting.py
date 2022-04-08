@@ -1,5 +1,12 @@
-def div(a, b, c):
-    return(a+b+c)/3
+class Student:
 
-div_result = div(9,4,2)
-print(div_result)
+    def__init__(self,name):
+        self.name = "name"
+
+    def avg(self,math,english):
+        print((math + english)/2)
+a001 = Student("sato")
+print(a001.name)
+
+a002 = Student("tanaka")
+print(a002.name)
