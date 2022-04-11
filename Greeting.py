@@ -1,12 +1,28 @@
 class Student:
 
-    def__init__(self,name):
-        self.name = "name"
+    def__init__(self , name):
+        self.name = name
 
-    def avg(self,math,english):
-        print((math + english)/2)
+    def calculate_avg(self,date):
+        sum = 0
+
+        for num in date:
+            sum += num
+        avg =sum/len(date)
+        return avg
+    
+    def jedge(self,avg):
+
+        if(avg >= 60):
+            result="passed"
+        else:
+            result="failed"
+        return result
+
 a001 = Student("sato")
-print(a001.name)
+date = [70,65,50,90,30]
+avg = a001.calculate_avg(date)
+resule = a001.jedge(avg)
 
-a002 = Student("tanaka")
-print(a002.name)
+print(avg)
+print(a001.name+" "+result)
